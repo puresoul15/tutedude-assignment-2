@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar a{
+  text-decoration: none;
+  color: grey;
+  font-size: 28px;
+  margin-left: 15px;
+}
+.navbar{
+  width: 100vw;
+  height: 10vh;
+  /* background-color: aqua; */
+}
+.username{
+  color:#2B8DFC;
+  padding: 8px 12px;
+  font-size: large;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(170, 234, 232);
+}
+.hero{
+  display: flex;
+}
+.hero .left{
+  background-color: rgb(247, 252, 252);
+  width: 50vw;
+  height: 90vh;
+}
+.hero .right{
+  background-color: rgb(247, 252, 252);
+  width: 50vw;
+
+}
+.hero .left .line{
+  font-size: 60px;
+  font-weight: 700;
+
+}
+.Laundery{
+  color: rgb(56, 91, 204);
+  font-size: 60px;
+  font-weight: bolder;
+}
+.data{
+  padding: 120px;
+}
+.data p{
+  font-size: 25px;
+  color: gray;
+}
+.data .book{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 18px 40px;
+  background-color:#2B8DFC;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+}
